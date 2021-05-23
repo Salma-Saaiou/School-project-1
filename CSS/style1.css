@@ -1,0 +1,80 @@
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: url(../images/background1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+}
+h3{
+    text-align: center;
+    position: relative;
+    top: 4px;
+}
+a{
+    color: #000;
+}
+button{
+    cursor: pointer;
+}
+
+.container1{
+    border: 1px solid #888;
+    width: 28%;
+    height: 85vh;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    position: relative;
+    top: 4px;
+    right: 35%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.671);
+
+}
+.container1 p{
+    color: #fff;
+    font-size:14px;
+    line-height: 20px;
+}
+
+label{
+    color: rgb(0, 0, 0);
+    float: left;
+    padding-top: 2px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+input{
+    width: 89%;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid #888;
+}
+
+.submit
+{
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    background-color: #EF4836;
+    border: transparent;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+footer img{
+    cursor: pointer;
+}
